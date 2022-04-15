@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "sport": "Hockey",
+        "popularity": 3,
+        "imageURL": "https://thehockeywriters.com/ezoimgfmt/s3951.pcdn.co/wp-content/uploads/2015/09/Brendan-Gallagher-Canadiens-Feb-2018.jpg?ezimgfmt=ng%3Awebp%2Fngcb57"
+    },
+    {
+        "id": 2,
+        "sport": "Soccer",
+        "popularity": 5,
+        "imageURL": "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/f_auto/prd-league/bl8lny2qtae7cm5rwciz"
+    },
+    {
+        "id": 3,
+        "sport": "Basketball",
+        "popularity": 4,
+        "imageURL": "https://static01.nyt.com/images/2021/08/03/sports/03olympics-basketball1/03olympics-basketball1-videoSixteenByNineJumbo1600.jpg"
+    }
+]

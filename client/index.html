@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+    <link rel="stylesheet" href="styles.css"
+  </head>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button>
+
+    <button id="fortuneButton">Get a fortune</button>
+    <br>
+    <br>
+    <br>
+    <form>
+      <input
+          type="text"
+          id="sport"
+          placeholder="Enter a sport"/>
+      <input
+          type="text"
+          id="img"
+          placeholder="Paste an image URL of the sport"/>
+      <section id="popularity-container">
+        <p>How popular is the sport?</p>
+        <div id="radio-container">
+          <label for="one">
+            <input
+                type="radio"
+                name="popularity"
+                value="1"
+                id="one"/>
+                1
+          </label>
+          <label for="two">
+            <input
+                type="radio"
+                name="popularity"
+                value="2"
+                id="two"/>
+              2
+          </label>
+          <label for="three">
+            <input
+                type="radio"
+                name="popularity"
+                value="3"
+                id="three"/>
+              3
+          </label>
+          <label for="four">
+            <input
+                type="radio"
+                name="popularity"
+                value="4"
+                id="four"/>
+              4
+          </label>
+          <label for="five">
+            <input
+                type="radio"
+                name="popularity"
+                value="5"
+                id="five"/>
+              5
+          </label>
+        </div>
+      </section>
+      <button>Add Sport</button>
+        
+        </div>
+      </section>
+    </form>
+
+    <section id="sports-container"></section>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
